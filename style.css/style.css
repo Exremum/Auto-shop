@@ -1,0 +1,326 @@
+.body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 15px;
+   background: #2d2f30 url("./bg.png");
+   line-height: 1.6;
+}
+
+/*conteiner*/
+.conteiner{
+   width: 100%;
+   max-width: 1200px;
+   margin:0 auto;
+}
+
+/*header*/
+.header{
+   position: relative;
+   background-color: rgb(0, 0, 0);
+   height: 150px;
+}
+   
+
+/*goit*/
+.goit{
+   background-image: url(../src/lamborghini-logo-wallpaper-preview.jpg);
+   width: 17%;
+   height: 21vh;
+}
+
+.naw__link{
+   display: inline-block;
+   vertical-align: top;
+   margin: 1%;
+   color:rgb(255, 255, 255);
+   text-decoration: overline;
+   transition: color .2s linear;
+   font-size: 24px ;
+   text-align: center;
+   position: relative;
+   right: 250px;
+}
+
+.fret1{
+   background-image:  url(../media/40px-Emoji_u1f4de.svg.png);
+   width: 5%;
+   height: 10vh;  
+   display: inline-block;
+   vertical-align: top;
+   border-radius: 10%;
+   background-size: 90px;
+   position: relative;
+   left: 974px;
+}
+
+.fret2{
+   background-image:  url(../media/mail.png);
+   width: 5%;
+   height: 10vh;  
+   display: inline-block;
+   vertical-align: top;
+   border-radius: 10%;
+   background-size: 90px;
+   position: relative;
+   left: 974px;
+}
+
+ /*photo*/
+ .photo{
+   display: block;
+   background-image: url(../media/family_chooser_tecnica.webp);
+   width: 100%;
+   height: 100vh;
+   position:relative;
+   top: -35px; 
+}
+
+.text12{
+   font-size: 50px;
+   color: #e3e3e3;
+   text-decoration: solid;
+   font-family: 'Times New Roman', Times, serif;
+   position: relative;
+   top: -1085px;
+   text-align: center;
+}
+
+.text18{
+   font-size: 70px;
+   color: #e3e3e3;
+   text-decoration: solid;
+   font-family: 'Times New Roman', Times, serif;
+   position: relative;
+   top: -1100px;
+   text-align: center;
+}
+
+/*intro*/
+.intro__inner {
+   width: 100%;
+   max-width: 880px;
+   margin: 0 auto;
+}
+
+.intro__title {
+   color: rgb(195, 155, 34);
+   font-size: 50px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 1;
+   position: relative;
+   top: -332px;
+   text-decoration: overline;
+}
+
+/*Католог*/
+.lamba1{
+   background-image: url(../src/images/1.jpg);
+   width: 30%;
+   height: 50vh;
+   position: relative;
+   top:-300px;
+   background-size: 190px;
+}
+
+.lamba2{
+   background-image: url(../src/images/2.jpg);
+   width: 30%;
+   height: 50vh;
+   position: relative;
+   top: -300px;
+   background-size: 190px;
+}
+
+.lamba3{
+   background-image: url(../src/images/3.jpg);
+   width: 30%;
+   height: 50vh;
+   position: relative;
+   top: -300px;
+   background-size: 190px;
+}
+
+.poww{
+   color: rgb(195, 155, 34);
+   font-size: 50px;
+   font-weight: 700;
+   text-transform: uppercase;
+   text-align: center;
+   line-height: 1;
+   position: relative;
+   top: -303px;
+   text-decoration: overline;
+}
+
+.DFT1{
+   background-image: url(../src/шина1.jpg);
+   width: 12%;
+   height: 152px;
+   position: relative;
+   top: -230px;
+   left: 79px;
+}
+
+ .DFT2{
+   background-image: url(../src/шина2.jpg);
+   width: 12%;
+   height: 152px;
+   position: relative;
+   top: -380px;
+   left: 270px;
+}
+
+.DFT3{
+   background-image: url(../src/ШИНА3.jpg);
+   width: 12%;
+   height: 152px;
+   position: relative;
+   top: -530px;
+   left: 460px;
+}
+
+.DFT4{
+   background-image: url(../src/шина4.jpg);
+   width: 12%;
+   height: 152px;
+   position: relative;
+   top: -682px;
+   left: 650px;
+}
+
+.DFT5{
+   background-image: url(../src/dvigatel2.jpg);
+   width: 12%;
+   height: 152px;
+   position: relative;
+   top: -834px;
+   left: 840px;
+}
+
+.gtr{
+   display: block;
+   font-size: 30px;
+   text-decoration: underline;
+   position: relative;
+   top: -700px;
+   color: #ffffff;
+   left: 50px;
+}
+
+.gggg{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: left;
+   color: #e3e3e3;
+}
+
+.hp{
+   color: #e3e3e3;
+}
+
+.hph{
+   color: #e3e3e3;
+}
+
+/*Авторизация*/
+.from{
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   position: relative;
+   top: 300px;
+   left: 500px;
+}
+
+.input{
+   margin: 10px 0;
+   padding: 10px;
+   border: unset;
+   border-bottom: 2px solid #e3e3e3;
+   outline:none;
+}
+.button{
+   padding:10px;
+   background: #ffffff;
+   border:unset ;
+   cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+   margin: 0;/*обнуление отступов*/
+   padding: 0;/*обнуление полей*/
+   box-sizing: border-box;/*метод расчета размеров бокса*/
+   font-family: 'Poppins', sans-serif;/*название шрифта*/
+}
+
+body {
+   display: flex;/*флексбокс сетка*/
+   flex-direction: column;/*направление главной оси*/
+   justify-content: flex-end;/*элементы в конце контейнера*/
+   min-height: 100vh;
+}
+
+footer{
+   position: relative;/*относительное позиционирование*/
+   width: 100%;/*на всю ширину*/
+   padding: 20px 50px;/*поля для контента*/
+   background: #2659a5;/*цвет футера*/
+   display: flex;
+   justify-content: center;/*в центре по горизонтали*/
+   align-items: center;/*в центре по вертикали*/
+   flex-direction: column;
+   margin-top: 100px;/*отступ сверху*/
+}
+footer.wave{
+   position: absolute;/*абсолютное позиционирование*/
+   top: -100px;
+   left: 0;
+   width: 100%;
+   height: 100px;
+   background: url(wave.png);/*картинка волны*/
+   background-size: 1000px 100px;/*ширина и высота волны*/
+}
+
+.social,
+.menu{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+
+.social li,
+.menu li{
+   list-style: none;
+}
+
+.social li a{
+   font-size: 2em;
+   color: #fff;
+   margin: 0 10px;
+   display: inline-block;
+   transition: 0.5s;
+}
+
+.menu li a{
+   font-size: 1.2em;
+   color: #fff;
+   opacity: 0.75;
+   margin: 0 15px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+.menu li a:hover{
+   opacity: 1;
+}
+
+footer p{
+   color: #fff;
+   text-align: center;
+   margin-top: 15px;
+   font-size: 1.1em;
+}    
